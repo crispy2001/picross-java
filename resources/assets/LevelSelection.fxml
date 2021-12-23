@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="backgroundPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.Proj.Picross.controller.LevelController">
+   <ImageView fx:id="background" fitHeight="900.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@background/difficulty_easy.png" />
+   </ImageView>
+   <ImageView fitHeight="180.0" fitWidth="240.0" layoutX="20.0" layoutY="20.0" onMouseClicked="#onClickBack" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@background/back_arrow.png" />
+      </image>
+   </ImageView>
+</AnchorPane>
